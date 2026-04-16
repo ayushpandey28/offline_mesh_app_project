@@ -12,18 +12,17 @@ const navItems = [
   { path: '/discover', name: 'Discover', icon: Radio },
   { path: '/network', name: 'Network Status', icon: Activity },
   { path: '/broadcast', name: 'Broadcast', icon: Send },
-  { path: '/files', name: 'Files', icon: File },
-  { path: '/notifications', name: 'Notifications', icon: Bell },
-  { path: '/analytics', name: 'Analytics', icon: PieChart },
+  
+  
   { path: '/profile', name: 'Profile', icon: User },
   { path: '/logs', name: 'Logs & Activity', icon: ScrollText },
-  { path: '/device', name: 'Device Info', icon: Smartphone },
-  { path: '/history', name: 'Connection History', icon: History },
-  { path: '/security', name: 'Security', icon: Shield },
-  { path: '/theme', name: 'Theme', icon: Palette },
-  { path: '/settings', name: 'Settings', icon: Settings },
-  { path: '/help', name: 'Help', icon: HelpCircle },
-  { path: '/about', name: 'About', icon: Info },
+  
+  
+  
+  
+  
+  
+  
 ];
 
 const Sidebar = ({ isOpen, toggleSidebar }) => {

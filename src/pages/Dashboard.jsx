@@ -11,7 +11,7 @@ const Dashboard = () => {
     { title: 'Active Nodes', value: nodes.length, icon: Activity, path: '/network' },
     { title: 'Nearby Users', value: users.length, icon: Users, path: '/discover' },
     { title: 'Unread Messages', value: messages.length, icon: MessageSquare, path: '/chat' },
-    { title: 'Signal Strength', value: 'Excellent', icon: Radio, path: '/device' },
+    { title: 'Signal Strength', value: 'Excellent', icon: Radio },
   ];
 
   return (
@@ -35,6 +35,7 @@ const Dashboard = () => {
       </div>
 
       <div className="card-grid">
+        
         <Card>
           <h2 style={{ fontSize: '18px', marginBottom: '16px' }}>Recent Activity</h2>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
